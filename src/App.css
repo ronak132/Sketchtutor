@@ -1,0 +1,46 @@
+html {
+  height: 95vh;
+}
+
+body {
+  height: 100%;
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+}
+
+#root {
+  height: 100%;
+}
+
+.App {
+  text-align: center;
+  height: 100%;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.App-logo {
+  height: 45px;
+}
+
+.App-header {
+  flex: 0.15;
+  min-height: 100px;
+  padding: 20px;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.Play {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  flex: 1;
+}
